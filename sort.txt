@@ -1,0 +1,9 @@
+Ordena array de string em ordem alfabetica.
+
+nomedoarray.sort();
+
+Para ordenar valores float deve ser assim:
+
+nois vai mandar para o sort como que ele tem que pensar
+
+nomedoarray.sort(function(a, b) {return a - b;});
