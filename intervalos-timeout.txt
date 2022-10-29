@@ -1,0 +1,5 @@
+setInterval(nome da função, o tempo em milisegundo) função js para chamar a função 
+a cada tempo em milisegundo.
+
+setTimeout(nome da função, o tempo em milisegundo) função js para chamar a função apenas 1x
+de acordo com o tempo determinado.
