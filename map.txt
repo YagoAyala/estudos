@@ -1,0 +1,9 @@
+gera um novo array do mesmo tamanho que o primeiro com a manipulaçao que você quer
+
+nomedoarray.Map(function(elementodoarray){
+    manipulação que voce quiser
+})
+
+ou
+
+nomedoarray.Map(nomedafunçãoqueiráfazeralgo)
