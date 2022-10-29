@@ -1,0 +1,7 @@
+Estáticas:
+
+É a linguagem que não é processada no servidor, apenas no navegador. (Html, CSS, Javascript).
+
+Dinamicas:
+
+É processada no servidor. (PHP, C#, RUBY, JAVASCRIPT).
