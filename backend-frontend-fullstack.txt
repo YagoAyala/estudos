@@ -1,0 +1,12 @@
+FrontEnd:
+
+Faz as telinhas.
+
+BackEnd:
+
+Tem que garantir a integritade de dados, faz toda as regras de negócio,
+faz acesso ao banco de dados, cuida da segurança e da escalabilidade.
+
+FullStack:
+
+Faz os dois.
