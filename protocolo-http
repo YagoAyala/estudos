@@ -1,0 +1,7 @@
+O que muda do HTTP para o HTTPS?
+
+R: O protocolo, o HTTP usam as portas 80 já o HTTPS usa as 443.
+
+Ta, mas o que muda entre elas?
+
+as portas 443 são criptografadas.
