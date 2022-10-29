@@ -1,0 +1,10 @@
+Perfomance em relação ao for:
+
+Para arrays que possuem um número maior de elementos, a opção mais performática de loop é o forEach. 
+Já para arrays que possuem um menor número de elementos, a opção mais performática é o clássico loop for.
+
+https://imasters.com.br/javascript/entendendo-os-lacos-for-do-javascript-para-interacao-com-arrays#:~:text=Para%20arrays%20que%20possuem%20um,%C3%A9%20o%20cl%C3%A1ssico%20loop%20for.
+
+nomedoarray.forEach(function(nomedoelemento, indexdoelemento, oarrayinteiro){
+    código
+})
