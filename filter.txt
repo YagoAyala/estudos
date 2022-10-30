@@ -1,0 +1,9 @@
+Gera um novo array igual o Map
+
+nomedoarray.filter(nome da função que vc quer chamar)
+
+ou
+
+nomedoarray.filter(function(elementodoArray){
+    código aqui.
+})

@@ -1,0 +1,5 @@
+Primeira execução pega os dois primeiros valores, soma e retorna o resultado
+
+nas proximas execuções, pega o valor do retorno da primeira execução e soma o com o proximo valor.
+
+array.reduce(anterior, atual, pós)
