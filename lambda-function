@@ -1,0 +1,5 @@
+//É uma função sem nome (anonima)
+
+const yago = function(valor) {
+    return valor*2
+}
