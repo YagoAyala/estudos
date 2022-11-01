@@ -1,0 +1,2 @@
+No Javascript uma function factory (Função fabrica) é aquela
+função que retorna um objeto.
