@@ -1,0 +1,3 @@
+classes sempre tem que ser nomeada com letras maiusculas. Exemplo: Pessoa, Carro, Cachorro.
+
+classe é um modelo de dados.
