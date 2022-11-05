@@ -1,0 +1,16 @@
+Método construtor = constroi objetos
+
+Atributos são caracteriscas da Classe
+
+Class Pessoa { Pessoa é o nome da Classe
+    constructor() Dentro do construtor colocamos quais atributos a classe terá
+}
+
+exemplo:
+
+Class Pessoa {
+    constructor(nome, sobrenome){ // Nossa Classe tem dois atributos de entrada, nome e sobrenome
+        this.nome = nome; this.nome = Atributo, nome = parametro
+        this.sobrenome = sobrenome;
+    }
+}
