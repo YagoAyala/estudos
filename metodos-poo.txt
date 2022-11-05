@@ -1,12 +1,32 @@
-function testArguments (num1, num2) {
-    for(let i in arguments) {
-        console.log(arguments)
-        console.log(arguments[i])
+dentro das Classes as funções/métodos não tem a nomenclatura Function
+
+por exemplo:
+
+class Pessoa {
+    constructor(){
+
+    }
+
+    falar(msg){
+        console.log(msg)
     }
 }
-testArguments(26, 2, 3)
 
-// Arguments é um objeto que mostra quantos valores foram passado para a função;
+encapusalamento get and setter
+colocar underline nos atributos
+exemplo:
+
+class Pessoa {
+    constructor(nome, sobrenome){ // Nossa Classe tem dois atributos de entrada, nome e sobrenome
+        this._nome = nome; // Nota-se que há underline nos atributos nome e sobrenome
+        this._sobrenome = sobrenome;
+    }
+    falar(){
+        console.log(this.nome)
+    }
+}
+
+Agora irei mostrar como adicionar GET (pegar valor) e Set (Atribuir valor) nos atributos
 
 class Pessoa {
     constructor(nome, sobrenome){ // Nossa Classe tem dois atributos de entrada, nome e sobrenome
@@ -29,4 +49,3 @@ class Pessoa {
         this._sobrenome = sobrenome; //Estamos atribuindo um valor passado no metódo sobrenome para o atributo, portanto é um Set
     }
 }
-
