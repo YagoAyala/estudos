@@ -7,4 +7,3 @@ function testArguments (num1, num2) {
 testArguments(26, 2, 3)
 
 // Arguments é um objeto que mostra quantos valores foram passado para a função;
-

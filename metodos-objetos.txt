@@ -1,0 +1,15 @@
+Object.keys(nomeDoObjeto) mostra quais atributos tem no objeto.
+
+Object.values(nomeDoObjeto) mmostras os valores do atributos que há no objeto.
+
+Object.entries(nomeDoObjeto) mostra os atributos e os valores deles que há no objeto.
+
+Object.defineProperty(nomeDoObjeto, "nome do atributo que queres adicionar", {
+    enumerable: true, //aparece na hora do console.log
+    writable: false, // é apenas readonly desativamos a opção de digitar por cima
+    value: "valor passado no atributo adicionado"
+});
+
+Object.freeze(nomedoOjbeto) // congela o objeto inteiro, não pode mais alterar o valor de nenhum atributo.
+
+console.table(Array de objetos) // retorna tudo bonitinho em tabelas
