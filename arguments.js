@@ -8,25 +8,3 @@ testArguments(26, 2, 3)
 
 // Arguments é um objeto que mostra quantos valores foram passado para a função;
 
-class Pessoa {
-    constructor(nome, sobrenome){ // Nossa Classe tem dois atributos de entrada, nome e sobrenome
-        this._nome = nome;
-        this._sobrenome = sobrenome;
-    }
-    get nome(){
-        return this._nome; // estamos apenas retornando o valor portanto é um GET
-    }
-
-    set nome(nome){
-        this._nome = nome; //Estamos atribuindo um valor passado no metódo nome para o atributo, portanto é um Set
-    }
-
-    get sobrenome(){
-        return this._sobrenome; // estamos apenas retornando o valor portanto é um GET
-    }
-
-    set sobrenome(sobrenome){
-        this._sobrenome = sobrenome; //Estamos atribuindo um valor passado no metódo sobrenome para o atributo, portanto é um Set
-    }
-}
-

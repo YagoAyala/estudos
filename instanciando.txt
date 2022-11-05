@@ -1,0 +1,38 @@
+class Pessoa {
+    constructor(nome, sobrenome){
+        this._nome = nome;
+        this._sobrenome = sobrenome;
+    }
+    get nome(){
+        return this._nome;
+    }
+
+    set nome(nome){
+        this._nome = nome; 
+    }
+
+    get sobrenome(){
+        return this._sobrenome;
+    }
+
+    set sobrenome(sobrenome){
+        this._sobrenome = sobrenome;
+    }
+}
+
+instanciando a Classe
+const yago = New Pessoa()
+
+Já isntanciados podemos deletar atributos dessa forma:
+
+delete yago.nome;
+
+o certo é instanciar já passando o valor que pede
+exemplo:
+
+const yago2 = new Pessoa("yago", "Costa")
+//Vamos acessar o método get
+yago2.nome //aqui já estamos acessando o nome pela a função GET, sim não precisa dos ()
+yago2._nome //Aqui já estamos acessando o nome pelo atributo, não me parece correto.
+//obs: tudo que tem underline é atributo.
+// se não tiver o setter NAO SERÁ POSSIVEL ALTERAR O DADO
